@@ -1,0 +1,107 @@
+.wrapper {
+    padding-top: 25px;
+    background-image: url("/lesson2/bg_page.png");
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+
+    .lesson2 {
+        width: 80%;
+        padding: 20px;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, .5);
+        background-color: #E1EDEB;
+        h1 {
+            font-family: 'Kurale','Arial Black', Serif;
+            font-weight: normal;
+            color: #6A94CC;
+            font-size: 3em;
+            margin: 0;
+        }
+
+        p {
+            font-family: "Palatino Linotype", Baskerville, Serif;
+            font-size: 1.25em;
+            color: #616161;
+            line-height: 150%;
+            margin-top: 10px;
+            margin-left: 60px;
+        }
+        h2{
+            color: #B1967C;
+            font-family: 'Kurale', 'Arial Black', serif;
+            font-weight: normal;
+            font-size: 2.2em;
+            border-bottom: 2px solid white;
+            background: url("/lesson2/head-icon.png") no-repeat 10px 10px;
+            padding:0 0 2px 60px;
+            margin:0;
+        }
+
+        .buttonBottom{
+            display: flex;
+            justify-content: center;
+           button{
+               padding: 15px 40px;
+               border-radius: 25px;
+               border: 0.5px solid #6A94CC ;
+
+               transition: 0.20s ease-in-out;
+               &:hover{
+                   transition: 0.20s ease-in-out;
+                   color: antiquewhite;
+                   background: #6A94CC;
+                   cursor: pointer;
+                   box-shadow: 1px 4px 6px 2px rgba(0,0,0,.5);
+               }
+           }
+
+        }
+        .intro{
+            color: #666666;
+            font-family: 'Kurale', Helvetica, sans-serif;
+            font-size: 1.2em;
+            margin-left: 0;
+            margin-bottom: 25px;
+        }
+        p,address{
+            font-family: "Palatino Linotype", Baskerville, serif;
+            font-size: 1.25em;
+            color:#616161;
+            line-height: 150%;
+            margin-top: 20px;
+            margin-left: 60px;
+        }
+        h1::before{
+            content: "Lesson2! ";
+        }
+        h1::after{
+            content: "(scss)";
+        }
+        p::before{
+            content:"-- ";
+        }
+        p::after{
+            content: "<O>";
+        }
+        h2::before{
+            content: "(";
+        }
+        h2::after{
+            content: ")";
+        }
+
+        p::selection{
+            background: black;
+            color: #6A94CC
+        }
+    }
+
+
+
+
+}
+

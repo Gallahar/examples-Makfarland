@@ -1,0 +1,23 @@
+.lessons{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: black;
+    display: flex;
+    justify-content: center;
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+
+    ul{
+        font-size: 30px;
+        color: white;
+        li{
+            padding: 10px 10px 0 0;
+        }
+    }
+}
