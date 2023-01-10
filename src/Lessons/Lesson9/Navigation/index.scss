@@ -1,0 +1,52 @@
+.navigation {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  height: 100vh;
+
+  .home.homeLink,
+  .feature .featureLink,
+  .expert .expLink, .quiz .quizLink,
+  .project .projLink,
+  .horoscope .horLink {
+    background-color: #FFFFFF;
+    background-position: 97% 109%;
+    padding: 0 30px 15px;
+    font-weight: bold;
+     &:hover{
+      background-image: url(public/lesson9/navigation/home.png);
+    }
+
+  }
+
+  .mainNav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+
+    li {
+      float: left;
+      width: 13em;
+
+      &:last-of-type{
+        border-right: 1px dashed #999;
+      }
+    }
+
+    a {
+      display: block;
+      border: 1px dashed #999;
+      padding: 7px 5px 7px 5px;
+      border-right: none;
+      text-decoration: none;
+      color: #000;
+      text-transform: uppercase;
+      background: #E7E7E6 url(public/lesson9/navigation/nav.png) no-repeat 0 2px;
+
+      &:hover {
+        font-weight: bold;
+        background-color: #B2F511;
+        background-position: left center;
+      }
+    }
+  }
+}
